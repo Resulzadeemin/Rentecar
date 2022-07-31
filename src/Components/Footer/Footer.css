@@ -1,0 +1,100 @@
+.footer {
+    margin-top: 100px;
+    background-color: #000;
+    padding: 50px;
+}
+
+.display-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    padding-top: 50px;
+}
+
+.text p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+.phone a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: #000;
+    color: #fff;
+}
+
+.link1 a,
+.link2 a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.link1 p[type="mar"],.link2 p[type="mar"]{
+    margin-top: 20px;
+}
+
+.link1 a:hover,
+.link2 a:hover {
+    text-decoration: underline;
+}
+.footer-input{
+    margin-top: 20px;
+}
+.footer-input input{
+    padding: 8px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+    border-radius: 3px;
+    border: 0;
+}
+.footer-input button{
+    background-color: #fc983c;
+    color: #fff;
+    padding: 10px 10px;
+    outline: none;
+    font-size: 17px;
+    border-radius: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    clip-path: polygon(0 1%, 100% 0, 86% 100%, 0% 100%);
+    transition: .7s;
+}
+.footer-input button:hover {
+    box-shadow: inset 200px 0 0 0 #eb892e;
+}
+@media screen and (max-width: 767px) {
+    .display-footer {
+        display: block;
+        text-align: center;
+    }
+
+    .link1,
+    .link2 {
+        padding-top: 10px;
+    }
+    .text p{
+        line-height: 22px;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .footer {
+        height: 100vh;
+        transform: translateY(-50px);
+    }
+
+    .display-footer {
+        display: block;
+        text-align: center;
+        padding-top: 0px;
+        font-size: 30px;
+    }
+
+    .display a,
+    article {
+        font-size: 30px;
+    }
+}

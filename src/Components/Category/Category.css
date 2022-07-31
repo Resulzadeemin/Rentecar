@@ -1,0 +1,16 @@
+.cat{
+    padding-top: 90px;
+    text-align: center;
+}
+.cat span[type="span2"]{
+    padding: 7px;
+    border-radius: 4px;
+    margin: 10px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+    background:linear-gradient(#f29a48,#fc983c) ;
+    box-shadow: 0 0 10px #80808048;
+    transition: .5s;
+}

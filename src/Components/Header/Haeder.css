@@ -1,0 +1,44 @@
+.header-bg{
+    background: linear-gradient(to top,#00000000,rgba(0,0,0, 100)),url("../img/bg.jpg") center/cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.header-content h1{
+    font-size: 60px;
+    color: #fff;
+    line-height: 1.1;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 500px;
+}
+.header-content p{
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    width: 450px;
+    line-height: 1.5;
+    padding-top: 50px;
+}
+.header-flex{
+    display: flex;
+    padding-top: 200px;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 991px) {
+
+    .header-content h1{
+        font-size: 30px;
+        width: 80%;
+    }
+    .header-content p{
+        font-size: 17px;
+        width: 90%;
+        padding-top: 30px;
+        line-height: 1.4;
+    }
+    .header-flex{
+        display: inherit;
+        padding-top: 120px;
+    }
+}

@@ -1,0 +1,47 @@
+.form-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color: #000;
+    font-weight: 600;
+}
+.form-css{
+    background-color: #Fff;
+    padding: 50px;
+    border-radius: 5px;
+}
+.inp-form{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inp-button{
+    width: 100%;
+    background-color: #f7b71d;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 991px) {
+
+    .form-css{
+        padding: 25px;
+        margin-top: 20px;
+    }
+    .inp-form{
+        padding: 10px 15px;
+        margin: 6px 0;
+    }
+    .inp-button{
+        padding: 14px 10px;
+        margin: 6px 0;
+    }
+}

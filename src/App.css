@@ -1,0 +1,15 @@
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 18px;
+}
+::-webkit-scrollbar-track{
+    background: #000;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 50px;
+    background: url("./Components/img/car-icon.png")center/cover;
+    background-size: 20px 55px;
+}

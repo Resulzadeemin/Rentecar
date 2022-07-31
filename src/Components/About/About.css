@@ -1,0 +1,60 @@
+#about{
+    padding-top: 90px;
+    text-align: center;
+}
+#about h3{
+    color: #fc983c;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#about h2{
+    color: #000000cc;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+}
+.our-service{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    overflow: hidden;
+}
+.service-content h2{
+    font-weight: 500;
+    color: #000000cc;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.service-content p{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 26px;
+    width: 230px;
+    padding-top: 15px;
+    color: #000000cc;
+}
+.service-icon{
+    color: #fc983c;
+    font-size: 33px;
+    transform: translateX(-5px);
+}
+
+@media only screen and (max-width: 991px) {
+
+    .our-service{
+        display: inherit;
+        text-align: center;
+        padding-top: 0
+    }    
+    .service-content h2{
+        padding-top: 40px;
+    }
+    .service-content p{
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 5px;
+    }
+
+}

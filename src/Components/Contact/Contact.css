@@ -1,0 +1,186 @@
+#contact {
+    padding-top: 90px;
+    text-align: center;
+}
+
+#contact h3 {
+    color: #fc983c;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#contact h2 {
+    color: #000000cc;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+}
+
+.contact-content h2 {
+    font-size: 32px;
+    color: #333;
+    font-weight: 600;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    width: 480px;
+    line-height: 35px;
+}
+
+.contact-content p {
+    width: 350px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #666;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.contact-icon {
+    color: #fc983c;
+    font-size: 22px;
+    transform: translateY(5px);
+}
+
+.contact-cnt span {
+    margin-left: 20px;
+    color: #666;
+    font-size: 18px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-social {
+    margin-top: 30px;
+}
+
+.contact-socialNet {
+    font-size: 40px;
+    margin-right: 7px;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.contact-socialNet:hover[type="fbk"],
+.contact-socialNet:hover[type="goo"],
+.contact-socialNet:hover[type="twt"],
+.contact-socialNet:hover[type="lnk"] {
+    background-color: #fc983c;
+}
+
+.contact-socialNet[type="fbk"] {
+    background-color: #fc993cd4;
+}
+
+.contact-socialNet[type="goo"] {
+    background-color: #fc993cd4;
+}
+
+.contact-socialNet[type="twt"] {
+    background-color: #fc993cd4;
+}
+
+.contact-socialNet[type="lnk"] {
+    background-color: #fc993cd4;
+}
+
+.contact-display {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.contact-form input,
+textarea {
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    border: 2px solid #d1ddcd;
+    width: 750px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px 30px;
+    margin-top: 10px;
+}
+
+.contact-btn button {
+    background-color: #fc983c;
+    margin-top: 25px;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 14px 28px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    cursor: pointer;
+    transition: .7s;
+    clip-path: polygon(0 1%, 100% 0, 86% 100%, 0% 100%);
+}
+
+.contact-btn button:hover {
+    box-shadow: inset 200px 0 0 0 #eb892e;
+}
+
+.contact-iframe {
+    margin-top: 50px;
+}
+
+
+@media only screen and (max-width: 991px) {
+
+    .contact-display {
+        display: inherit;
+    }
+
+    .contact-content h2 {
+        font-size: 25px;
+        width: 90%;
+        margin: 0 auto;
+        line-height: normal;
+        text-align: start;
+    }
+
+    .contact-content p {
+        font-size: 17px;
+        text-align: start;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+
+    .contact-cnt span {
+        margin-left: 10px;
+    }
+
+    .contact-padding {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .contact-social {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .contact-inp-pad {
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .contact-btn button {
+        margin-top: 10px;
+    }
+
+    .contact-form input,
+    textarea {
+        width: 90%;
+        padding: 10px 25px;
+    }
+
+    .contact-btn button {
+        padding: 10px 22px;
+        font-size: .9rem;
+    }
+
+}

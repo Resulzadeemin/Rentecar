@@ -1,0 +1,29 @@
+#happyClients{
+    padding-top: 90px;
+    text-align: center;
+}
+#happyClients h3{
+    color: #fc983c;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#happyClients h2{
+    color: #000000cc;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+}
+.carousel-fade{
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: #fc983c;
+    border-radius: 2px;
+}
+.carousel-item img{
+    border-radius: 3px;
+    object-fit: cover;
+}

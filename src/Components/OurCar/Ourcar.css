@@ -1,0 +1,154 @@
+.our-car-bg-img{
+    background: url("../img/bgcar.png")center;
+    background-repeat:no-repeat ;
+    /* height:100vh; */
+    background-attachment:fixed ;
+    background-color: #eeeeee17;
+}
+#ourCar{
+    padding-top: 90px;
+    text-align: center;
+}
+#ourCar h3{
+    color: #fc983c;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#ourCar h2{
+    color: #000000cc;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+}
+.our-car-btn{
+    padding-top: 30px;
+}
+.our-car-img{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.our-car-img img{
+    width: 350px;
+    height: 220px;
+    border-radius: 4px;
+}
+.our-car-load-btn{
+    text-align: center;
+    padding-top: 30px;
+}
+.our-car-load-btn button{
+    background-color: #fc983c;
+    color: #fff;
+    border-radius: 100px;
+    border: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 12px 28px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    cursor: pointer;
+    transition: .7s;
+}
+.our-car-load-btn button:hover{
+  box-shadow: inset 200px 0 0 0 #fc983c;
+}
+.our-car-btn span{
+    padding: 7px;
+    border-radius: 4px;
+    margin: 10px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+    background:linear-gradient(#f29a48,#fc983c) ;
+    box-shadow: 0 0 10px #80808048;
+    transition: .5s;
+}
+.our-car-btn span[type="all"]{
+    background:#fc983c ;
+    color: #fff;
+}
+.our-car-btn span:hover{
+    background:linear-gradient(#fc983c,#dc8c14) ;
+}
+.our-car-display{
+    display: flex;
+    justify-content: space-between;
+}
+.our-car-display h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 10px;
+    color: #fc983c;
+    text-align: start;
+    background-color: #fc983c;
+    color: #fff;
+    width: 150px;
+    padding: 13px;
+    clip-path: polygon(0 0, 100% 0, 83% 100%, 0% 100%);
+}
+.our-car-display h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.our-car-display h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 10px;
+    color: #fc983c;
+    text-align: end;
+    background-color: #fc983c;
+    color: #fff;
+    width: 150px;
+    padding: 13px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 16% 100%);
+    cursor: pointer;
+}
+.modal-body span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.modal-body p{
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.modal-footer button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f29a48;
+    color: #fff;
+    border-color: #dc8c14;
+}
+.our-car-pad-img img{
+    margin-top: 10px;
+}
+
+
+@media only screen and (max-width: 991px) {
+
+
+    .our-car-btn span{
+        display: block;
+    }
+    .our-car-img img{
+        width: 300px;
+        height: 180px;
+    }
+    .our-car-pad-img{
+        flex-wrap: wrap;
+        flex: 1 2 200px;
+    }
+    .our-car-display{
+        justify-content: space-evenly;
+        width: 45%;
+        margin: 0 auto;
+    }
+
+
+}
